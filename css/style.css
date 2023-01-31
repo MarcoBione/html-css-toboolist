@@ -200,7 +200,7 @@ main{
 
 }
 
-.new-task{
+.new-task, .today, .upcoming{
     display: block;
     position: relative;
     width: 100%;
