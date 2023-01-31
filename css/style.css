@@ -3,3 +3,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*
+PALETTE
+
+BACKGROUND : #F6F8F9
+HEAD BACK : #FFFFFF
+EDITORIAL : #47ADF1
+Q1 GOALS : #9C72E4
+RECRUITING : #64C0A9
+MOBILE : #F29E33
+WEBSITES : #D863A1
+SALES : #B0C926
+
+
+*/
+
+body{
+    background-color: #F6F8F9
+}
+
+
