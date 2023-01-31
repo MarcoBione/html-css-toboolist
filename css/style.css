@@ -16,9 +16,36 @@ RECRUITING : #64C0A9
 MOBILE : #F29E33
 WEBSITES : #D863A1
 SALES : #B0C926
-
+BUTTON ADD TASKS : #47ADF1
+text grey : #D6DADE
+BORDER SHADOW : rgba(214, 218, 222, 0.5);
 
 */
+
+/* UTILITY */
+button{
+    border-radius: 5px;
+    border: 1px solid #D6DADE;
+}
+
+.white{
+    background-color: #ffffff;
+}
+
+.blue{
+    background-color: #47ADF1;
+}
+
+.text-grey{
+    color: #D6DADE;
+    font-weight: 500;
+}
+
+.text-white{
+    color:#FFFFFF;
+    font-weight: 500;
+}
+/* END UTILITY */
 
 body {
     background-color: #F6F8F9
@@ -31,6 +58,7 @@ header {
     position: relative;
     width: 100%;
     background-color: #FFFFFF;
+    border:rgba(214, 218, 222, 0.5);
 
 
     /* border: 1px solid red; */
@@ -60,22 +88,45 @@ main{
     margin: 0 auto;
     background-color: #FFFFFF;
 
-    border: 1px solid red;
+
 }
 
+/* MAIN HEADER */
 .main-input{
     display: block;
     position: relative;
     width: 100%;
+    height: 50px;
 
-    border: 1px solid red;
+    margin-top: 50px;
+    border: 1px solid rgba(214, 218, 222, 0.5);
 
 }
+
+.style-button1{
+    display: inline;
+    position: relative;
+    width: 90px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.style-button2{
+    display: inline;
+    position: relative;
+    width: 110px;
+    height: 30px;
+}
+
+/* END MAIN HEADER */
+
+
 
 .main-page{
     display: block;
     position: relative;
     width: 100%;
+    height: auto;
 
     border: 1px solid red;
 
