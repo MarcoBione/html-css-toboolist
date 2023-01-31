@@ -32,7 +32,8 @@ header {
     width: 100%;
     background-color: #FFFFFF;
 
-    border: 1px solid red;
+
+    /* border: 1px solid red; */
 }
 
 .title-container {
@@ -40,10 +41,45 @@ header {
     position: relative;
     margin-left: 15px;
 
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 h1 {
     display: inline;
     font-size: 60px;
 }
+
+/* HEADER END*/
+
+/* MAIN */
+
+main{
+    display: block;
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+
+    border: 1px solid red;
+}
+
+.main-input{
+    display: block;
+    position: relative;
+    width: 100%;
+
+    border: 1px solid red;
+
+}
+
+.main-page{
+    display: block;
+    position: relative;
+    width: 100%;
+
+    border: 1px solid red;
+
+}
+
+
+/* MAIN END */
