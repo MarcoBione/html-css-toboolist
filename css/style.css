@@ -23,10 +23,6 @@ BORDER SHADOW : rgba(214, 218, 222, 0.5);
 */
 
 /* UTILITY */
-button{
-    border-radius: 5px;
-    border: 1px solid #D6DADE;
-}
 
 .white{
     background-color: #ffffff;
@@ -36,13 +32,52 @@ button{
     background-color: #47ADF1;
 }
 
-.text-grey{
+.green{
+    color: green;
+
+    text-align: center;
+    vertical-align: middle;
+
+    border: 1px solid green;
+    border-radius: 50%;
+}
+
+.red{
+    color: red;
+
+    text-align: center;
+    vertical-align: middle;
+
+    border: 1px solid red;
+    border-radius: 50%;
+}
+
+.editorial{
+    position: relative;
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 10px;
+    padding: 5px;
+}
+
+.text-lightgrey{
     color: #D6DADE;
     font-weight: 500;
 }
 
 .text-white{
     color:#FFFFFF;
+    font-weight: 500;
+}
+
+.text-grey{
+    color:#464A52;
+    font-weight: 500;
+}
+
+.text-little-grey{
+    color: #3F434D;
     font-weight: 500;
 }
 /* END UTILITY */
@@ -86,7 +121,7 @@ main{
     position: relative;
     width: 80%;
     margin: 0 auto;
-    background-color: #FFFFFF;
+    background-color: #F6F8F9;
 
 
 }
@@ -97,8 +132,10 @@ main{
     position: relative;
     width: 100%;
     height: 50px;
+    background-color: #ffffff;
 
     margin-top: 50px;
+    margin-bottom: 15px;
     border: 1px solid rgba(214, 218, 222, 0.5);
 
 }
@@ -108,29 +145,84 @@ main{
     position: relative;
     width: 90px;
     height: 30px;
+    border-radius: 5px;
+    border: 1px solid #D6DADE;
     margin-top: 10px;
     margin-left: 40px;
 }
 .style-button2{
     display: inline;
     position: relative;
+    border-radius: 5px;
+    border: 1px solid #D6DADE;
     width: 110px;
     height: 30px;
 }
 
 /* END MAIN HEADER */
 
-
-
+/* MAIN PAGE */
 .main-page{
     display: block;
     position: relative;
     width: 100%;
     height: auto;
 
-    border: 1px solid red;
+    border: 1px solid rgba(214, 218, 222, 0.5);
 
 }
+
+.new-task{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+
+    background-color: #ffffff;
+}
+
+.task-titles{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+.hide-menu{
+    display: inline-block;
+    position: relative;
+    width: auto;
+    height: auto;
+
+    font-size: 30px;
+    text-align: center;
+    border: none;
+    background-color: #FFFFFF;
+
+}
+
+.style-task{
+    display: inline-block;
+    position: relative;
+    width: auto;
+    height: auto;
+
+}
+
+.box{
+    display: inline-block;
+    position: relative;
+    width: auto;
+}
+
+.object-style{
+    display: inline-block;
+    position: relative;
+    width: 21px;
+    height: 21px;
+}
+
+
+/* END MAIN PAGE */
 
 
 
